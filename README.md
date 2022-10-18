@@ -3,19 +3,23 @@ First React Routing Test.
 Notes:
 Make sure localhost is not running during route install
 Make sure to cd into client first
+
 .........................................
-Install: npm install react-router-dom
+
+Install:        
+
+    npm install react-router-dom
+
 .........................................
 
 Example:
 
-import {BrowserRouter, Routes , Route, Link} from 'react-router-dom'
-import './App.css';
-import Home from './Components/Home'
-import About from './Components/About'
+    import {BrowserRouter, Routes , Route, Link} from 'react-router-dom'
+    import Home from './Components/Home'
+    import About from './Components/About'
 
-function App() {
-  return (
+    function App() {
+     return (
     <BrowserRouter>
     <div className="App">
       <Routes>
@@ -24,7 +28,7 @@ function App() {
       </Routes>
     </div>
     </BrowserRouter>
-  );
-}
+    );
+    }
 
-export default App;
+    export default App;
