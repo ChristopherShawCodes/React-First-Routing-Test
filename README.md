@@ -1,4 +1,4 @@
-First React Routing Test.
+First JavaScript React Routing Test.
 
 Notes:
 Make sure localhost is not running during route install
